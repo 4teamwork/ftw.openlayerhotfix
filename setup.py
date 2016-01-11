@@ -15,8 +15,6 @@ setup(
         'setuptools',
         'z3c.jbot',
     ],
-    tests_require=extras_require['tests'],
-    extras_require=extras_require,
     entry_points="""
     # -*- Entry points: -*-
     [z3c.autoinclude.plugin]
