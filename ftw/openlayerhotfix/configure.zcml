@@ -1,9 +1,11 @@
-<configure xmlns="http://namespaces.zope.org/zope">
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
 
   <include package="z3c.jbot" file="meta.zcml" />
 
   <browser:jbot
     directory="jbot"
-    layer="" />
+    layer="zope.publisher.interfaces.browser.IDefaultBrowserLayer" />
 
 </configure>
