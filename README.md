@@ -3,7 +3,7 @@
 In the current version of collective.geo.openlayers the google roadmap is broken. This is due to a google api update.
 Updates OpenLayers.js to a dev version which can handle the new api.
 
-Installed OpenLayers Version: `2.14 dev`  
+Installed OpenLayers Version: `2.14 dev (11.01.2016)` 
 Source: http://dev.openlayers.org/OpenLayers.js
 
 ## Links
