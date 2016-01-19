@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ftw.openlayerhotfix',
-    version='1.0.0',
+    version='1.0.1.dev0',
     author='4teamwork AG',
     url='https://github.com/4teamwork/ftw.openlayerhotfix',
     packages=find_packages(exclude=['ez_setup']),
